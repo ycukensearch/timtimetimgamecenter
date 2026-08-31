@@ -1,0 +1,15 @@
+<title>Timtimetim GameCenter | Timtimetim Games</title>
+<h1>GameCenter</h1>
+<input id="key" name="key" placeholder="Поиск игр"/><button id="btn">Искать!</button>
+<ul>
+<li><a href="https://ycukensearch.github.io/viselitsa-game/">Viselitsa</a></li>
+<li><a href="https://sites.google.com/view/strelyalka-game/">Стрелялка</a></li>
+<li><a href="https://sites.google.com/view/boblox-game/">BOBLOX</a></li>
+<li><a href="https://ycukensearch.github.io/viselitsa-game/">WOT SCRATCH</a></li>
+<li><a href="https://ycukensearch.github.io/viselitsa-game/">WOWT SCRATCH</a></li>
+</ul>
+<script> const btn = document.getElementById("btn"); const keyField = document.getElementById("key"); btn.addEventListener("click", ()=>{
+
+    const result = find(keyField.value);       // ищем введенное в поле слово
+    console.log(result);
+}); </script>
